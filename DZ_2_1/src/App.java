@@ -18,5 +18,6 @@ public class App {
     private static String validNumber(int number) throws InvalidNumberException {
         if (number <= 0) throw new InvalidNumberException("Некорректное число");
         return "Число корректно";
+        
     }
 }
